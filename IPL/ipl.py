@@ -4,7 +4,6 @@ teams = ["CSK", "SRH", "PBKS", "DC", "LSG", "KKR", "RR", "GT", "RCB", "MI"]
 
 while status:
 
-    teams = ["CSK", "SRH", "PBKS", "DC", "LSG", "KKR", "RR", "GT", "RCB", "MI"]
     myTeam = input("Enter your team : ").upper()
 
     if myTeam in teams:
@@ -56,3 +55,4 @@ while status:
         status = True
     else:
         status = False
+
